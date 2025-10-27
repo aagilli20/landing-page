@@ -1,16 +1,16 @@
 {
   "website": {
-    "name": "HorizonWing",
-    "title": "HorizonWing - Soluciones empresariales impulsadas por IA e innovación digital",
-    "description": "Transforme su negocio con las soluciones de IA de HorizonWing. Optimice las operaciones, aumente la productividad e impulse la innovación con nuestra tecnología de vanguardia."
+    "name": "AndresGilli",
+    "title": "AndresGilli - Sitios Web y Landing Pages de carga rápida con las últimas tecnologías",
+    "description": "Transforme su negocio con tecnologías de vanguardia."
   },
   "Navbar": {
-    "home": "Hogar",
+    "home": "Inicio",
     "pricing": "Precios",
     "menu": "Menú"
   },
   "Footer": {
-    "description": "HorizonWing es una plantilla de página de destino moderna y de código abierto creada con Next.js y Tailwind CSS, que ayuda a los desarrolladores a crear hermosos sitios web más rápido.",
+    "description": "Página de inicio moderna y de código abierto creada con Next.js y Tailwind CSS. Tu web será más rápida y fácil de encontrar para los buscadores. ¡Crea tu sitio web ahora!",
     "product": "Producto",
     "components": "Componentes",
     "templates": "Plantillas",
@@ -44,9 +44,9 @@
     "GlobalizationSupportDesc": "Internacionalización incorporada para un alcance global"
   },
   "Testimonial": {
-    "title": "Lo que dicen los usuarios sobre HorizonWing",
+    "title": "Lo que dicen los usuarios sobre AndresGilli",
     "description": "Mira lo que piensan los desarrolladores y creadores sobre nuestra plantilla de página de destino.",
-    "quoteOne": "HorizonWing está increíblemente bien estructurado. El código está limpio y la documentación es excelente.",
+    "quoteOne": "AndresGilli está increíblemente bien estructurado. El código está limpio y la documentación es excelente.",
     "authorOne": "Alex Chen",
     "titleOne": "Desarrollador Frontend",
     "quoteTwo": "El apoyo a la internacionalización es fantástico. Me ahorró horas de trabajo en la localización.",
@@ -67,21 +67,21 @@
   },
   "Faq": {
     "title": "Preguntas comunes",
-    "description": "Todo lo que necesitas saber sobre la plantilla de página de destino HorizonWing",
-    "questionOne": "¿Qué tecnologías utiliza HorizonWing?",
-    "answerOne": "HorizonWing está construido con Next.js, TypeScript, Tailwind CSS y otras herramientas modernas. Utiliza las mejores prácticas para el rendimiento y el SEO.",
+    "description": "Todo lo que necesitas saber sobre la plantilla de página de destino AndresGilli",
+    "questionOne": "¿Qué tecnologías utiliza AndresGilli?",
+    "answerOne": "AndresGilli está construido con Next.js, TypeScript, Tailwind CSS y otras herramientas modernas. Utiliza las mejores prácticas para el rendimiento y el SEO.",
     "questionTwo": "¿Es fácil de personalizar?",
     "answerTwo": "¡Sí! La plantilla es muy modular y está bien documentada. Puede modificar fácilmente los componentes, los estilos y el contenido para que coincidan con su marca.",
     "questionThree": "¿Cómo funciona la internacionalización?",
     "answerThree": "Utilizamos next-intl para la internacionalización, lo que facilita la adición de nuevos idiomas. Sólo tienes que añadir tus traducciones a la carpeta de mensajes.",
     "questionFour": "¿Puedo usarlo para proyectos comerciales?",
-    "answerFour": "¡Absolutamente! HorizonWing es de código abierto y de uso gratuito tanto para proyectos personales como comerciales.",
+    "answerFour": "¡Absolutamente! AndresGilli es de código abierto y de uso gratuito tanto para proyectos personales como comerciales.",
     "questionFive": "¿Necesito experiencia en codificación?",
     "answerFive": "El conocimiento básico de React y Tailwind CSS es útil, pero nuestra documentación lo hace fácil incluso para los principiantes."
   },
   "Cta": {
     "title": "Comience a crear su página de destino hoy mismo",
-    "description": "Únete a miles de desarrolladores que utilizan HorizonWing para crear páginas de destino modernas y responsivas. Comience con nuestra plantilla de código abierto.",
+    "description": "Únete a miles de desarrolladores que utilizan AndresGilli para crear páginas de destino modernas y responsivas. Comience con nuestra plantilla de código abierto.",
     "primaryAction": "Empezar a construir",
     "secondaryAction": "Ver en GitHub"
   },
@@ -116,8 +116,8 @@
     }
   },
   "Hero": {
-    "title": "Haz que la página de destino sea más rápida",
-    "description": "Esta es una plantilla de página de destino gratuita, de código abierto y poderosa para proyectos saas, lo ayudará a hacer que su inicio sea más rápido.",
+    "title": "Haz que tu WEB sea más rápida",
+    "description": "Te proponemos desarrollar una Landing Page o Página de Bienvenida utilizando tecnologías de punta como Next.js, Tailwind CSS, Shadcn y TypeScript",
     "action": "Comenzar"
   }
 }

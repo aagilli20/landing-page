@@ -8,7 +8,7 @@ import { locales } from "i18n/request";
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: "Pricing - HorizonWing",
+    title: "Pricing - AndresGilli",
     description: "Horizon Wing Pricing Page",
     alternates: {
         canonical: getLocaleUrl(await getLocale(), "/pricing"),

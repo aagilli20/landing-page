@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="public/logo.png" alt="HorizonWing Logo" width="80" height="80" style="border-radius: 50%;" />
+  <img src="public/logo.png" alt="AndresGilli Logo" width="80" height="80" style="border-radius: 50%;" />
 </p>
 
-# HorizonWing Landing Page
+# AndresGilli Landing Page
 
 [English](./README.md) | [中文](./README.zh.md)
 
@@ -33,10 +33,10 @@ These scores demonstrate the template's excellent performance optimization acros
 
 ```bash
 # Clone the repository
-git clone https://github.com/HorizonWing/horizon-wing-landing-page.git
+git clone https://github.com/aagilli20/andres-gilli
 
 # Navigate to the project
-cd horizon-wing-landing-page
+cd andres-gilli
 
 # Install dependencies
 pnpm install
@@ -61,7 +61,7 @@ docker-compose up -d
 ## Project Structure
 
 ```shell
-horizon-wing-landing-page/
+andres-gilli/
 ├── src/
 │   ├── app/              # Next.js app routes
 │   │   ├── [locale]/    # i18n routes
@@ -118,7 +118,7 @@ Currently supports 17 languages including:
 
 ## License
 
-MIT License © 2024-PRESENT HorizonWing
+MIT License © 2024-PRESENT AndresGilli
 
 ## Contributing
 
@@ -126,13 +126,13 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Contact
 
-- Issues: [GitHub Issues](https://github.com/HorizonWing/horizon-wing-landing-page/issues)
-- Email: <horizonwingtech@gmail.com>
+- Issues: [GitHub Issues](https://github.com/aagilli20/andres-gilli/issues)
+- Email: <aagilli20@gmail.com>
 
 ## Support
 
 If you find this project helpful, please give it a star ⭐️
 
-<a href="https://www.uneed.best/tool/horizonwing-landing-page">
+<a href="https://www.uneed.best/tool/AndresGilli-landing-page">
   <img src="https://www.uneed.best/EMBED3.png" alt="Uneed Embed Badge" width="200" height="auto" />
 </a>

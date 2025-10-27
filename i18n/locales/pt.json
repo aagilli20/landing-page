@@ -1,8 +1,8 @@
 {
   "website": {
-    "name": "HorizonWing",
-    "title": "HorizonWing - Soluções Empresariais Baseadas em IA e Inovação Digital",
-    "description": "Transforme seu negócio com as soluções de IA da HorizonWing. Simplifique operações, aumente a produtividade e impulsione a inovação com nossa tecnologia de ponta."
+    "name": "AndresGilli",
+    "title": "AndresGilli - Soluções Empresariais Baseadas em IA e Inovação Digital",
+    "description": "Transforme seu negócio com as soluções de IA da AndresGilli. Simplifique operações, aumente a produtividade e impulsione a inovação com nossa tecnologia de ponta."
   },
   "Navbar": {
     "home": "Casa",
@@ -10,7 +10,7 @@
     "menu": "Menu"
   },
   "Footer": {
-    "description": "HorizonWing é um modelo de página de destino moderno e de código aberto criado com Next.js e Tailwind CSS, ajudando os desenvolvedores a criar belos sites com mais rapidez.",
+    "description": "AndresGilli é um modelo de página de destino moderno e de código aberto criado com Next.js e Tailwind CSS, ajudando os desenvolvedores a criar belos sites com mais rapidez.",
     "product": "Produto",
     "components": "Componentes",
     "templates": "Modelos",
@@ -44,9 +44,9 @@
     "GlobalizationSupportDesc": "Internacionalização integrada para alcance global"
   },
   "Testimonial": {
-    "title": "O que os usuários dizem sobre HorizonWing",
+    "title": "O que os usuários dizem sobre AndresGilli",
     "description": "Veja o que os desenvolvedores e criadores pensam sobre nosso modelo de página de destino.",
-    "quoteOne": "HorizonWing é incrivelmente bem estruturado. O código é limpo e a documentação é excelente.",
+    "quoteOne": "AndresGilli é incrivelmente bem estruturado. O código é limpo e a documentação é excelente.",
     "authorOne": "Alex Chen",
     "titleOne": "Desenvolvedor Frontend",
     "quoteTwo": "O apoio à internacionalização é fantástico. Poupou-me horas de trabalho na localização.",
@@ -67,21 +67,21 @@
   },
   "Faq": {
     "title": "Perguntas frequentes",
-    "description": "Tudo o que você precisa saber sobre o modelo de página de destino HorizonWing",
-    "questionOne": "Quais tecnologias HorizonWing usa?",
-    "answerOne": "HorizonWing é construído com Next.js, TypeScript, Tailwind CSS e outras ferramentas modernas. Ele usa as melhores práticas para desempenho e SEO.",
+    "description": "Tudo o que você precisa saber sobre o modelo de página de destino AndresGilli",
+    "questionOne": "Quais tecnologias AndresGilli usa?",
+    "answerOne": "AndresGilli é construído com Next.js, TypeScript, Tailwind CSS e outras ferramentas modernas. Ele usa as melhores práticas para desempenho e SEO.",
     "questionTwo": "É fácil de personalizar?",
     "answerTwo": "Sim! O modelo é altamente modular e bem documentado. Você pode modificar facilmente componentes, estilos e conteúdo para combinar com sua marca.",
     "questionThree": "Como funciona a internacionalização?",
     "answerThree": "Usamos next-intl para internacionalização, facilitando a adição de novos idiomas. Basta adicionar suas traduções à pasta de mensagens.",
     "questionFour": "Posso usá-lo para projetos comerciais?",
-    "answerFour": "Absolutamente! HorizonWing é de código aberto e gratuito para uso em projetos pessoais e comerciais.",
+    "answerFour": "Absolutamente! AndresGilli é de código aberto e gratuito para uso em projetos pessoais e comerciais.",
     "questionFive": "Preciso de experiência em codificação?",
     "answerFive": "O conhecimento básico de React e Tailwind CSS é útil, mas nossa documentação facilita até mesmo para iniciantes."
   },
   "Cta": {
     "title": "Comece a criar sua página de destino hoje",
-    "description": "Junte-se a milhares de desenvolvedores que estão usando HorizonWing para criar páginas de destino modernas e responsivas. Comece a usar nosso modelo de código aberto.",
+    "description": "Junte-se a milhares de desenvolvedores que estão usando AndresGilli para criar páginas de destino modernas e responsivas. Comece a usar nosso modelo de código aberto.",
     "primaryAction": "Comece a construir",
     "secondaryAction": "Ver no GitHub"
   },

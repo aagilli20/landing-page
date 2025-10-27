@@ -38,12 +38,12 @@ export default function Footer() {
             <Link href="/" className="flex items-center space-x-2">
               <Image
                 src="/logo.png"
-                alt="HorizonWing Logo"
+                alt="AndresGilli Logo"
                 width={32}
                 height={32}
                 className="h-6 w-auto rounded-full"
               />
-              <h2 className="text-xl font-bold text-black">HorizonWing</h2>
+              <h2 className="text-xl font-bold text-black">AndresGilli</h2>
             </Link>
             <p className="mt-4 text-sm text-muted-foreground max-w-xs">
               {t('description')}
@@ -108,13 +108,13 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="mt-16 text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} • HorizonWing {t('copyright')}
+          © {new Date().getFullYear()} • AndresGilli {t('copyright')}
         </div>
 
         {/* 添加 Uneed Embed Badge */}
         <div className="mt-8 flex justify-center">
           <a 
-            href="https://www.uneed.best/tool/horizonwing-landing-page"
+            href="https://www.uneed.best/tool/AndresGilli-landing-page"
             target="_blank"
             rel="noopener noreferrer"
           >

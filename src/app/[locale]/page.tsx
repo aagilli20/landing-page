@@ -31,13 +31,13 @@ export async function generateMetadata(): Promise<Metadata> {
       title: t("title"),
       description: t("description"),
       url: getLocaleUrl(locale),
-      siteName: 'HorizonWing',
+      siteName: 'AndresGilli',
       images: [
         {
           url: '/og-image.png',
           width: 1200,
           height: 630,
-          alt: 'HorizonWing Preview',
+          alt: 'AndresGilli Preview',
         },
       ],
       locale: locale,
@@ -48,7 +48,7 @@ export async function generateMetadata(): Promise<Metadata> {
       title: t("title"),
       description: t("description"),
       images: ['/og-image.png'],
-      creator: '@HorizonWingTech',
+      creator: '@AndresGilliTech',
     },
     robots: {
       index: true,

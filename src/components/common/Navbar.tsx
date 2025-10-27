@@ -48,12 +48,12 @@ export default function Navbar() {
           <Link href="/" className="flex items-center space-x-2">
             <Image
               src="/logo.png"
-              alt="HorizonWing Logo"
+              alt="AndresGilli"
               width={32}
               height={32}
               className="h-6 w-auto rounded-full"
             />
-            <span className="font-bold text-xl text-black">HorizonWing</span>
+            <span className="font-bold text-xl text-black">AndresGilli</span>
           </Link>
 
           {/* Desktop Navigation Links */}

@@ -1,8 +1,8 @@
 {
   "website": {
-    "name": "HorizonWing",
-    "title": "HorizonWing - AI-Powered Business Solutions & Digital Innovation",
-    "description": "Transform your business with HorizonWing's AI solutions. Streamline operations, boost productivity, and drive innovation with our cutting-edge technology."
+    "name": "AndresGilli",
+    "title": "AndresGilli - ",
+    "description": "Transform your business with cutting-edge technologies."
   },
   "Navbar": {
     "home": "Home",
@@ -10,7 +10,7 @@
     "menu": "Menu"
   },
   "Footer": {
-    "description": "HorizonWing is a modern, open-source landing page template built with Next.js and Tailwind CSS, helping developers create beautiful websites faster.",
+    "description": "AndresGilli is a modern, open-source landing page template built with Next.js and Tailwind CSS, helping developers create beautiful websites faster.",
     "product": "Product",
     "components": "Components",
     "templates": "Templates",
@@ -44,9 +44,9 @@
     "GlobalizationSupportDesc": "Built-in internationalization for global reach"
   },
   "Testimonial": {
-    "title": "What Users Say About HorizonWing",
+    "title": "What Users Say About AndresGilli",
     "description": "See what developers and creators think about our landing page template.",
-    "quoteOne": "HorizonWing is incredibly well-structured. The code is clean and the documentation is excellent.",
+    "quoteOne": "AndresGilli is incredibly well-structured. The code is clean and the documentation is excellent.",
     "authorOne": "Alex Chen",
     "titleOne": "Frontend Developer",
     "quoteTwo": "The internationalization support is fantastic. Saved me hours of work on localization.",
@@ -67,21 +67,21 @@
   },
   "Faq": {
     "title": "Common Questions",
-    "description": "Everything you need to know about HorizonWing landing page template",
-    "questionOne": "What technologies does HorizonWing use?",
-    "answerOne": "HorizonWing is built with Next.js, TypeScript, Tailwind CSS, and other modern tools. It uses best practices for performance and SEO.",
+    "description": "Everything you need to know about AndresGilli landing page template",
+    "questionOne": "What technologies does AndresGilli use?",
+    "answerOne": "AndresGilli is built with Next.js, TypeScript, Tailwind CSS, and other modern tools. It uses best practices for performance and SEO.",
     "questionTwo": "Is it easy to customize?",
     "answerTwo": "Yes! The template is highly modular and well-documented. You can easily modify components, styles, and content to match your brand.",
     "questionThree": "How does the internationalization work?",
     "answerThree": "We use next-intl for internationalization, making it easy to add new languages. Just add your translations to the messages folder.",
     "questionFour": "Can I use it for commercial projects?",
-    "answerFour": "Absolutely! HorizonWing is open-source and free to use for both personal and commercial projects.",
+    "answerFour": "Absolutely! AndresGilli is open-source and free to use for both personal and commercial projects.",
     "questionFive": "Do I need coding experience?",
     "answerFive": "Basic knowledge of React and Tailwind CSS is helpful, but our documentation makes it easy even for beginners."
   },
   "Cta": {
     "title": "Start Building Your Landing Page Today",
-    "description": "Join thousands of developers who are using HorizonWing to create modern, responsive landing pages. Get started with our open-source template.",
+    "description": "Join thousands of developers who are using AndresGilli to create modern, responsive landing pages. Get started with our open-source template.",
     "primaryAction": "Start Building",
     "secondaryAction": "View on GitHub"
   },
