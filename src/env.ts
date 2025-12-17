@@ -38,6 +38,7 @@ export const env = createEnv({
     NEXT_PUBLIC_GITHUB_REPO_URL: process.env.NEXT_PUBLIC_GITHUB_REPO_URL,
     DOMAIN: process.env.DOMAIN,
     GA_ID: process.env.GA_ID,
+    CONTACT_URL: undefined
   },
   /**
    * Run `build` or `dev` with `SKIP_ENV_VALIDATION` to skip env validation. This is especially
