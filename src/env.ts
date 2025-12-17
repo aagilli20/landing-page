@@ -12,6 +12,7 @@ export const env = createEnv({
       .default("development"),
     VERSION: z.string(),
     GITHUB_REPO_URL: z.string().default("https://github.com/aagilli20/landing-page"),
+    CONTACT_URL: z.string().default("/contact"),
     DOMAIN: z.string().default("http://localhost:3000"),
     GA_ID: z.string().optional(),
   },

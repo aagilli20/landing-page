@@ -1,4 +1,4 @@
-"use server"
+
 
 import Hero from "@/components/home/Hero";
 import Feature from "@/components/home/Feature";
@@ -11,11 +11,14 @@ import { getLocaleUrl } from "@/lib/utils";
 import { locales } from "i18n/request";
 import { getTranslations } from 'next-intl/server';
 
+export const revalidate = 3600; // Revalidate every hour
+
+
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
   const t = await getTranslations('website');
-  
-  
+
+
   return {
     title: t("title"),
     description: t("description"),
@@ -66,12 +69,12 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function HomePage() {
   return <>
-      <Hero />
-      <div className="max-w-7xl mx-auto">
-        <Feature />
-        <Testimonial />
-        <Faq />
-      </div>
-      <Cta />
-    </>;
+    <Hero />
+    <div className="max-w-7xl mx-auto">
+      <Feature />
+      <Testimonial />
+      <Faq />
+    </div>
+    <Cta />
+  </>;
 }

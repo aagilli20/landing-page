@@ -5,7 +5,7 @@ import { env } from '@/env';
 
 export default function Cta() {
   const t = useTranslations('Cta');
-  
+
   return (
     <section className="py-20 bg-gray-50/50">
       <div className="container px-4 mx-auto text-center">
@@ -17,17 +17,17 @@ export default function Cta() {
             {t('description')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href={env.GITHUB_REPO_URL} target="_blank">
-              <Button 
-                size="lg" 
+            <Link href={env.CONTACT_URL}>
+              <Button
+                size="lg"
                 className="min-w-[160px] bg-black text-white hover:bg-black/90"
               >
                 {t('primaryAction')}
               </Button>
             </Link>
             <Link href={env.GITHUB_REPO_URL} target="_blank">
-              <Button 
-                size="lg" 
+              <Button
+                size="lg"
                 variant="outline"
                 className="min-w-[160px] border-black text-black hover:bg-black hover:text-white"
               >

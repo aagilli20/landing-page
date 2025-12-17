@@ -19,7 +19,7 @@ const testimonials = [
     author: 'authorThree',
     title: 'titleThree',
     avatar: '/avatars/3.png'
-  },
+  },/*
   {
     quote: 'quoteFour',
     author: 'authorFour',
@@ -37,12 +37,12 @@ const testimonials = [
     author: 'authorSix',
     title: 'titleSix',
     avatar: '/avatars/6.png'
-  }
+  }*/
 ];
 
 export default function Testimonial() {
   const t = useTranslations('Testimonial');
-  
+
   return (
     <section className="py-20 bg-gray-50/50">
       <div className="container px-4 mx-auto">

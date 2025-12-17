@@ -113,7 +113,27 @@
       "llm": "Modelos premium",
       "tts": "Suporte prioritário",
       "styles": "Personalização avançada"
-    }
+    },
+    "periodYear": "ano",
+    "periodOnce": "uma vez",
+    "basicBillingYearly": "Faturado anualmente",
+    "proBillingYearly": "Faturado anualmente",
+    "basicBillingOneTime": "Pagamento único",
+    "proBillingOneTime": "Pagamento único"
+  },
+  "Contact": {
+    "title": "Contate-nos",
+    "description": "Estamos aqui para ajudar. Envie-nos uma mensagem e responderemos o mais breve possível.",
+    "metaTitle": "Contato - AndresGilli",
+    "metaDescription": "Entre em contato conosco para qualquer dúvida.",
+    "name": "Nome",
+    "phone": "Telefone",
+    "email": "E-mail",
+    "message": "Mensagem",
+    "submit": "Enviar mensagem",
+    "sending": "Enviando...",
+    "successMessage": "Mensagem enviada com sucesso!",
+    "errorMessage": "Houve um erro ao enviar a mensagem. Por favor, tente novamente."
   },
   "Hero": {
     "title": "Torne a página de destino mais rápida",

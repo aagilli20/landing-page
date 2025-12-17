@@ -113,7 +113,27 @@
       "llm": "Premium templates",
       "tts": "Priority support",
       "styles": "Advanced customization"
-    }
+    },
+    "periodYear": "year",
+    "periodOnce": "once",
+    "basicBillingYearly": "Billed yearly",
+    "proBillingYearly": "Billed yearly",
+    "basicBillingOneTime": "One-time payment",
+    "proBillingOneTime": "One-time payment"
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "description": "We are here to help. Send us a message and we will respond as soon as possible.",
+    "metaTitle": "Contact - AndresGilli",
+    "metaDescription": "Get in touch with us for any inquiries.",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "successMessage": "Message sent successfully!",
+    "errorMessage": "There was an error sending the message. Please try again."
   },
   "Hero": {
     "title": "Make Landing Page Faster",
