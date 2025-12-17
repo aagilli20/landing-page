@@ -1,7 +1,6 @@
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import Image from 'next/image';
-import { env } from '@/env';
 
 const footerLinks = {
   product: [
@@ -28,7 +27,7 @@ const footerLinks = {
 
 export default function Footer() {
   const t = useTranslations('Footer');
-  
+
   return (
     <footer className="w-full border-t border-border/40 bg-white">
       <div className="container mx-auto px-4 pt-16 pb-5">
@@ -54,8 +53,8 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <h3 className="font-bold">{t('product')}</h3>
             {footerLinks.product.map(({ key, href }) => (
-              <Link 
-                key={key} 
+              <Link
+                key={key}
                 href={href}
                 className="text-sm text-black/70 hover:text-black"
               >
@@ -67,8 +66,8 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <h3 className="font-bold">{t('social')}</h3>
             {footerLinks.social.map(({ key, href }) => (
-              <Link 
-                key={key} 
+              <Link
+                key={key}
                 href={href}
                 className="text-sm text-black/70 hover:text-black"
               >
@@ -80,8 +79,8 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <h3 className="font-bold">{t('service')}</h3>
             {footerLinks.service.map(({ key, href }) => (
-              <Link 
-                key={key} 
+              <Link
+                key={key}
                 href={href}
                 className="text-sm text-black/70 hover:text-black"
               >
@@ -93,8 +92,8 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <h3 className="font-bold">{t('community')}</h3>
             {footerLinks.community.map(({ key, href }) => (
-              <Link 
-                key={key} 
+              <Link
+                key={key}
                 href={href}
                 className="text-sm text-black/70 hover:text-black"
                 target="_blank"
@@ -111,23 +110,24 @@ export default function Footer() {
           © {new Date().getFullYear()} • AndresGilli {t('copyright')}
         </div>
 
-        {/* 添加 Uneed Embed Badge */}
+        {/* Uneed Embed Badge */}
         <div className="mt-8 flex justify-center">
-          <a 
+          <a
             href="https://www.uneed.best/tool/AndresGilli-landing-page"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img 
-              src="https://www.uneed.best/EMBED3.png" 
-              alt="Uneed Embed Badge" 
-              width="200" 
-              height="auto" 
+            <Image
+              src="https://www.uneed.best/EMBED3.png"
+              alt="Uneed Embed Badge"
+              width={200}
+              height={50}
               className="opacity-80 hover:opacity-100 transition-opacity"
+              unoptimized
             />
           </a>
         </div>
       </div>
     </footer>
   );
-} 
+}
