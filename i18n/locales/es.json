@@ -96,30 +96,30 @@
     "upgrade": "Comenzar",
     "basicTitle": "Básico",
     "proTitle": "Pro",
-    "basicBilling": "Perfecto para proyectos personales",
-    "proBilling": "Lo mejor para sitios web comerciales",
-    "basicFeatureTitle": "Todo lo que necesitas para empezar",
-    "proFeatureTitle": "Funciones avanzadas para profesionales",
+    "basicBilling": "Para proyectos personales o profesionales",
+    "proBilling": "Perfecto para proyectos personales o profesionales",
+    "basicFeatureTitle": "Código fuente personalizado",
+    "proFeatureTitle": "Sitio web funcional",
     "basic": {
-      "credits": "Todos los componentes principales",
-      "generation": "Plantillas básicas",
-      "cover": "Apoyo de la comunidad",
-      "scripts": "Modo oscuro",
-      "download": "Optimización SEO básica"
+      "credits": "Todos los componentes principales personalizados",
+      "generation": "Sección de inicio y precios",
+      "cover": "Sección de testimonios",
+      "scripts": "Botón de whatsapp",
+      "download": "Solo en español"
     },
     "pro": {
-      "credits": "Todo en Basic",
-      "basic": "Componentes de primera calidad",
-      "llm": "Plantillas premium",
-      "tts": "Soporte prioritario",
+      "credits": "Todos los componentes principales personalizados",
+      "basic": "Sección de inicio, precios y testimonios",
+      "llm": "Botón de whatsapp",
+      "tts": "Solo en español",
       "styles": "Personalización avanzada"
     },
     "periodYear": "año",
     "periodOnce": "una vez",
-    "basicBillingYearly": "Facturado anualmente",
-    "proBillingYearly": "Facturado anualmente",
-    "basicBillingOneTime": "Pago único",
-    "proBillingOneTime": "Pago único"
+    "basicBillingYearly": "Pensado para pequeñas o medianas empresas",
+    "proBillingYearly": "Perfecto para pequeñas o medianas empresas",
+    "basicBillingOneTime": "Un plan pensado para quienes requieren mayor soporte",
+    "proBillingOneTime": "Perfecto para quienes requieren mayor soporte y mantenimiento"
   },
   "Contact": {
     "title": "Contáctanos",

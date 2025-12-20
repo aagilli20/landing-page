@@ -23,36 +23,36 @@ interface PricingTier {
 const PRICING_OPTIONS: Record<PricingPeriod, PricingTier> = {
   monthly: {
     basic: {
-      price: '6.99',
-      period: 'month',
+      price: '600',
+      period: 'periodOnce',
       billingKey: 'basicBilling'
     },
     pro: {
-      price: '11.99',
-      period: 'month',
+      price: '650',
+      period: 'periodOnce',
       billingKey: 'proBilling'
     }
   },
   yearly: {
     basic: {
-      price: '69.99',
-      period: 'periodYear',
+      price: '800',
+      period: 'periodOnce',
       billingKey: 'basicBillingYearly'
     },
     pro: {
-      price: '119.99',
-      period: 'periodYear',
+      price: '850',
+      period: 'periodOnce',
       billingKey: 'proBillingYearly'
     }
   },
   oneTime: {
     basic: {
-      price: '29.99',
+      price: '1000',
       period: 'periodOnce',
       billingKey: 'basicBillingOneTime'
     },
     pro: {
-      price: '49.99',
+      price: '1200',
       period: 'periodOnce',
       billingKey: 'proBillingOneTime'
     }
@@ -91,7 +91,7 @@ export default function PricingSection() {
         <div className="rounded-2xl border p-8">
           <h3 className="text-xl font-semibold">{t('basicTitle')}</h3>
           <div className="mt-4 flex items-baseline">
-            <span className="text-3xl font-semibold">$</span>
+            <span className="text-3xl font-semibold">U$D</span>
             <span className="text-5xl font-bold">{currentPricing.basic.price}</span>
             <span className="ml-1 text-muted-foreground">/ {t(currentPricing.basic.period)}</span>
           </div>
@@ -122,7 +122,7 @@ export default function PricingSection() {
           </div>
 
           <div className="flex items-baseline">
-            <span className="text-3xl font-semibold">$</span>
+            <span className="text-3xl font-semibold">U$D</span>
             <span className="text-5xl font-bold">{currentPricing.pro.price}</span>
             <span className="ml-1 text-muted-foreground">/ {t(currentPricing.pro.period)}</span>
           </div>
