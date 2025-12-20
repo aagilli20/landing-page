@@ -22,12 +22,13 @@ export async function generateMetadata({
     return {
         metadataBase: new URL(baseUrl),
         alternates: {
-            // Canonical is / for default locale (es) due to as-needed prefix, and /locale for others
-            canonical: locale === "es" ? "/" : `/${locale}`,
+            // Canonical is always the full absolute URL for the current locale
+            canonical: locale === "es" ? baseUrl : `${baseUrl}/${locale}`,
             languages: {
-                es: "/",
-                en: "/en",
-                pt: "/pt",
+                "x-default": baseUrl,
+                es: baseUrl,
+                en: `${baseUrl}/en`,
+                pt: `${baseUrl}/pt`,
             },
         },
     };
