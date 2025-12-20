@@ -8,17 +8,30 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 import { env } from "@/env";
 import { type Metadata } from "next";
 
-export const metadata: Metadata = {
-    metadataBase: new URL("https://andresgilli.vercel.app"),
-    alternates: {
-        canonical: "/",
-        languages: {
-            en: "/en",
-            es: "/es",
-            pt: "/pt",
-        },
-    },
+type Props = {
+    children: React.ReactNode;
+    params: Promise<{ locale: string }>;
 };
+
+export async function generateMetadata({
+    params
+}: Omit<Props, "children">): Promise<Metadata> {
+    const { locale } = await params;
+    const baseUrl = "https://andresgilli.vercel.app";
+
+    return {
+        metadataBase: new URL(baseUrl),
+        alternates: {
+            // Canonical is / for default locale (en) due to as-needed prefix, and /locale for others
+            canonical: locale === "en" ? "/" : `/${locale}`,
+            languages: {
+                en: "/",
+                es: "/es",
+                pt: "/pt",
+            },
+        },
+    };
+}
 
 export default function LocaleLayout({
     children,
