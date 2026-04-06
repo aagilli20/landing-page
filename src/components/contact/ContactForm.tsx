@@ -25,6 +25,23 @@ export default function ContactForm() {
                 ...formData,
                 createdAt: new Date()
             });
+
+            // Enviar correo de forma transparente sin que el usuario salga de la página
+            await fetch("https://formsubmit.co/ajax/aagilli20@gmail.com", {
+                method: "POST",
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify({
+                    Nombre: formData.name,
+                    Teléfono: formData.phone,
+                    Email: formData.email,
+                    Mensaje: formData.message,
+                    _subject: "¡Nueva consulta desde tu Web!"
+                })
+            });
+
             setStatus('success');
             setFormData({ name: '', phone: '', email: '', message: '' });
         } catch (error) {
