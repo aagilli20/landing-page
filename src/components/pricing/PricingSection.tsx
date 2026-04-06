@@ -23,36 +23,36 @@ interface PricingTier {
 const PRICING_OPTIONS: Record<PricingPeriod, PricingTier> = {
   monthly: {
     basic: {
-      price: '600',
+      price: '350',
       period: 'periodOnce',
       billingKey: 'basicBilling'
     },
     pro: {
-      price: '650',
+      price: '400',
       period: 'periodOnce',
       billingKey: 'proBilling'
     }
   },
   yearly: {
     basic: {
-      price: '800',
+      price: '450',
       period: 'periodOnce',
       billingKey: 'basicBillingYearly'
     },
     pro: {
-      price: '850',
+      price: '500',
       period: 'periodOnce',
       billingKey: 'proBillingYearly'
     }
   },
   oneTime: {
     basic: {
-      price: '1000',
+      price: '650',
       period: 'periodOnce',
       billingKey: 'basicBillingOneTime'
     },
     pro: {
-      price: '1200',
+      price: '700',
       period: 'periodOnce',
       billingKey: 'proBillingOneTime'
     }
